@@ -18,7 +18,7 @@
                 <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#music" class="nav-link">Music</a></li>
-                <li><a href="#albums" class="nav-link">Albums</a></li>
+                <li><a href="#youtube" class="nav-link">YouTube</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
@@ -70,91 +70,25 @@
             <div class="spotify-player">
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0TnOYISbd1XYRBk9myaseg?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
-
-            <!-- Alternative Music Player -->
-            <div class="music-player">
-                <h3>Latest Releases</h3>
-                <div class="music-grid">
-                    <div class="music-card">
-                        <div class="music-cover">
-                            <i class="fas fa-music"></i>
-                        </div>
-                        <h4>Track Title 1</h4>
-                        <p>Original Mix</p>
-                        <button class="play-btn"><i class="fas fa-play"></i> Play</button>
-                    </div>
-                    <div class="music-card">
-                        <div class="music-cover">
-                            <i class="fas fa-music"></i>
-                        </div>
-                        <h4>Track Title 2</h4>
-                        <p>Extended Mix</p>
-                        <button class="play-btn"><i class="fas fa-play"></i> Play</button>
-                    </div>
-                    <div class="music-card">
-                        <div class="music-cover">
-                            <i class="fas fa-music"></i>
-                        </div>
-                        <h4>Track Title 3</h4>
-                        <p>Remix</p>
-                        <button class="play-btn"><i class="fas fa-play"></i> Play</button>
-                    </div>
-                    <div class="music-card">
-                        <div class="music-cover">
-                            <i class="fas fa-music"></i>
-                        </div>
-                        <h4>Track Title 4</h4>
-                        <p>Original Mix</p>
-                        <button class="play-btn"><i class="fas fa-play"></i> Play</button>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
-    <!-- Albums Section -->
-    <section id="albums" class="albums-section">
+    <!-- YouTube Videos Section -->
+    <section id="youtube" class="youtube-section">
         <div class="container">
-            <h2>Albums & EPs</h2>
-            <p class="section-subtitle">My Collections</p>
+            <h2>Latest Videos</h2>
+            <p class="section-subtitle">Watch my music on YouTube</p>
             
-            <div class="albums-grid">
-                <div class="album-card">
-                    <div class="album-cover">
-                        <i class="fas fa-compact-disc"></i>
-                    </div>
-                    <h3>Album Name 1</h3>
-                    <p class="album-year">2024</p>
-                    <p class="album-tracks">12 Tracks</p>
-                    <button class="album-btn">View Album</button>
-                </div>
-                <div class="album-card">
-                    <div class="album-cover">
-                        <i class="fas fa-compact-disc"></i>
-                    </div>
-                    <h3>Album Name 2</h3>
-                    <p class="album-year">2024</p>
-                    <p class="album-tracks">10 Tracks</p>
-                    <button class="album-btn">View Album</button>
-                </div>
-                <div class="album-card">
-                    <div class="album-cover">
-                        <i class="fas fa-compact-disc"></i>
-                    </div>
-                    <h3>Album Name 3</h3>
-                    <p class="album-year">2023</p>
-                    <p class="album-tracks">8 Tracks</p>
-                    <button class="album-btn">View Album</button>
-                </div>
-                <div class="album-card">
-                    <div class="album-cover">
-                        <i class="fas fa-compact-disc"></i>
-                    </div>
-                    <h3>Album Name 4</h3>
-                    <p class="album-year">2023</p>
-                    <p class="album-tracks">15 Tracks</p>
-                    <button class="album-btn">View Album</button>
-                </div>
+            <div id="loading" class="loading">
+                <i class="fas fa-spinner fa-spin"></i> Loading videos...
+            </div>
+            
+            <div id="videos-container" class="videos-grid"></div>
+            
+            <div class="youtube-link">
+                <a href="https://youtube.com/@haryanvivibes642?si=z1sWdCLi5F29d8ty" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-youtube"></i> Visit YouTube Channel
+                </a>
             </div>
         </div>
     </section>
@@ -243,7 +177,7 @@
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#music">Music</a></li>
-                        <li><a href="#albums">Albums</a></li>
+                        <li><a href="#youtube">YouTube</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
