@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suniiyo - Professional Music Artist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-music"></i> SUNIIYO
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#music" class="nav-link">Music</a></li>
+                <li><a href="#albums" class="nav-link">Albums</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>SUNIIYO</h1>
+            <p>All Types Music • Creating Vibes</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('music').scrollIntoView({behavior: 'smooth'})">Listen Now</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get in Touch</button>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hey! I'm Suniiyo, a passionate music artist creating all types of music. From hip-hop to electronic, classical to pop - I blend diverse genres to create unique and captivating sounds.</p>
+                    <p>My mission is to connect with listeners worldwide through authentic, high-quality music that moves the soul and makes you feel something.</p>
+                    <p>Join me on this musical journey and let's create magic together!</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>Music Genres</h3>
+                        <p>All Types</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Status</h3>
+                        <p>Active Artist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Player Section -->
+    <section id="music" class="music-section">
+        <div class="container">
+            <h2>Listen Now</h2>
+            <p class="section-subtitle">Stream my music on Spotify</p>
+            
+            <div class="spotify-player">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0TnOYISbd1XYRBk9myaseg?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+
+            <!-- Alternative Music Player -->
+            <div class="music-player">
+                <h3>Latest Releases</h3>
+                <div class="music-grid">
+                    <div class="music-card">
+                        <div class="music-cover">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h4>Track Title 1</h4>
+                        <p>Original Mix</p>
+                        <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                    </div>
+                    <div class="music-card">
+                        <div class="music-cover">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h4>Track Title 2</h4>
+                        <p>Extended Mix</p>
+                        <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                    </div>
+                    <div class="music-card">
+                        <div class="music-cover">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h4>Track Title 3</h4>
+                        <p>Remix</p>
+                        <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                    </div>
+                    <div class="music-card">
+                        <div class="music-cover">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h4>Track Title 4</h4>
+                        <p>Original Mix</p>
+                        <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Albums Section -->
+    <section id="albums" class="albums-section">
+        <div class="container">
+            <h2>Albums & EPs</h2>
+            <p class="section-subtitle">My Collections</p>
+            
+            <div class="albums-grid">
+                <div class="album-card">
+                    <div class="album-cover">
+                        <i class="fas fa-compact-disc"></i>
+                    </div>
+                    <h3>Album Name 1</h3>
+                    <p class="album-year">2024</p>
+                    <p class="album-tracks">12 Tracks</p>
+                    <button class="album-btn">View Album</button>
+                </div>
+                <div class="album-card">
+                    <div class="album-cover">
+                        <i class="fas fa-compact-disc"></i>
+                    </div>
+                    <h3>Album Name 2</h3>
+                    <p class="album-year">2024</p>
+                    <p class="album-tracks">10 Tracks</p>
+                    <button class="album-btn">View Album</button>
+                </div>
+                <div class="album-card">
+                    <div class="album-cover">
+                        <i class="fas fa-compact-disc"></i>
+                    </div>
+                    <h3>Album Name 3</h3>
+                    <p class="album-year">2023</p>
+                    <p class="album-tracks">8 Tracks</p>
+                    <button class="album-btn">View Album</button>
+                </div>
+                <div class="album-card">
+                    <div class="album-cover">
+                        <i class="fas fa-compact-disc"></i>
+                    </div>
+                    <h3>Album Name 4</h3>
+                    <p class="album-year">2023</p>
+                    <p class="album-tracks">15 Tracks</p>
+                    <button class="album-btn">View Album</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Links Section -->
+    <section class="social-section">
+        <div class="container">
+            <h2>Follow Me</h2>
+            <p class="section-subtitle">Connect on Social Media</p>
+            
+            <div class="social-links">
+                <a href="https://www.instagram.com/prince_rampura_642?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank" class="social-link instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://youtube.com/@haryanvivibes642?si=z1sWdCLi5F29d8ty" target="_blank" class="social-link youtube">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+                <a href="https://t.me/radha_rani6" target="_blank" class="social-link telegram">
+                    <i class="fab fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+                <a href="https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg" target="_blank" class="social-link spotify">
+                    <i class="fab fa-spotify"></i>
+                    <span>Spotify</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p class="section-subtitle">Let's Connect!</p>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:9694750598">+91 9694750598</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:jangirprince642@gmail.com">jangirprince642@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Suniiyo</h4>
+                    <p>Professional Music Artist | All Types Music</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#music">Music</a></li>
+                        <li><a href="#albums">Albums</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow</h4>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/prince_rampura_642" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@haryanvivibes642" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://t.me/radha_rani6" target="_blank"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Suniiyo. All Rights Reserved. | Designed with <i class="fas fa-heart"></i> by Copilot</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
